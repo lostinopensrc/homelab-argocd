@@ -1,0 +1,4 @@
+server:
+  service:
+    # -- Server service type
+    type: LoadBalancer
