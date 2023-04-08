@@ -19,4 +19,4 @@ Get the below initial password to intially login with usernam:admin . Remember t
 
 $ kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d
 
-![[Pasted image 20230408120205.png]]
+![ArgoCD UI](./images/Change_password.JPG)
